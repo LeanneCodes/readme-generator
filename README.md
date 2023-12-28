@@ -1,7 +1,7 @@
-# sbb
+# ReadMe Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  fsbsfb
+  A terminal-based application that creates a readme file based on user input, using the inquirer npm library.
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -26,7 +26,7 @@
   ### Contributing
   Please contact project owner before deciding to create a pull request.
   ### Questions
-  Username: grggfs [GitHub Account](https://github.com/grggfs/)
+  Username: LeanneCodes [GitHub Account](https://github.com/LeanneCodes/)
   
 
-  If you have any questions, please email me at: bsfbb
+  If you have any questions, please email me at: leannegoldsmith95@yahoo.com
