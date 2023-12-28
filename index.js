@@ -18,14 +18,67 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, JSON.stringify(data, null, '\t'), (err) =>
+    fs.writeFile(fileName, data, (err) =>
       err ? console.log(err) : console.log('Success!')
     );
 }
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt([
+        {
+            type: 'input',
+            name: 'username',
+            message: questions[0]
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: questions[1]
+        },
+        {
+            type: 'input',
+            name: 'title',
+            message: questions[2]
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: questions[3]
+        },
+        {
+            type: 'list',
+            name: 'install',
+            message: questions[4],
+            choices: ['npm i']
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: questions[5],
+            choices: ['MIT']
+        },
+        {
+            type: 'list',
+            name: 'tests',
+            message: questions[6],
+            choices: ['npm test']
+        },
+        {
+            type: 'input',
+            name: 'info',
+            message: questions[7]
+        },
+        {
+            type: 'input',
+            name: 'contribute',
+            message: questions[8]
+        },
+    ])
+    .then((response) => {
+        const readme = generateMarkdown(response);
+        return writeToFile('README.md', readme);
+    })
 }
 
 // function call to initialize program
