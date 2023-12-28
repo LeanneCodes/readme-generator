@@ -65,14 +65,16 @@ function init() {
             choices: ['npm test']
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'info',
-            message: questions[7]
+            message: questions[7],
+            choices: ['Make sure to install dependencies before continuing with project']
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'contribute',
-            message: questions[8]
+            message: questions[8],
+            choices: ['contact project owner']
         },
     ])
     .then((response) => {

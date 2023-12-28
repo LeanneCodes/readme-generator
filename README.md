@@ -1,17 +1,30 @@
-# Readme Generator
+# rgrh
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  readme genrator
+  grhbhet
   ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Tests](#tests)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
+
   ### Installation
-  npm i
+  In the terminal, run:
+  ``` npm i ```
   ### Usage
-  install dependencies
+  Make sure to install dependencies before continuing with project
   ### License
-  MIT
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  This project is covered under the MIT license
   ### Tests
-  npm test
+  In the terminal, run:
+  ``` npm test ```
   ### Contributing
-  contact project owner
+  Please contact project owner before deciding to create a pull request.
   ### Questions
-  [GitHub Account](https://github.com/LeanneCodes/)
-  Contact info: leannegoldsmith95@yahoo.com
+  Username: vfv [GitHub Account](https://github.com/vfv/)
+  
+
+  If you have any questions, please email me at: ggrgrg
