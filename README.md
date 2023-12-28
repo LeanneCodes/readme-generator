@@ -1,2 +1,1 @@
-# readme-generator
-CLI project to making readmes easier
+"# undefined\n\n"
