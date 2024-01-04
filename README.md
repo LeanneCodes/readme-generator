@@ -2,6 +2,12 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   A terminal-based application that creates a readme file based on user input, using the inquirer npm library.
+
+
+  ## Video Demo
+  https://github.com/LeanneCodes/readme-generator/assets/81588887/04242499-e21a-445e-989d-ed5ed2b97488
+
+  
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -9,10 +15,6 @@
   - [Tests](#tests)
   - [Contributing](#contributing)
   - [Questions](#questions)
-
-
-  ## Video Demo
-  https://github.com/LeanneCodes/readme-generator/assets/81588887/04242499-e21a-445e-989d-ed5ed2b97488
 
 
   ### Installation
