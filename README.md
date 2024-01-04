@@ -10,6 +10,11 @@
   - [Contributing](#contributing)
   - [Questions](#questions)
 
+
+  ## Video Demo
+  https://github.com/LeanneCodes/readme-generator/assets/81588887/04242499-e21a-445e-989d-ed5ed2b97488
+
+
   ### Installation
   In the terminal, run:
   ``` npm i ```
